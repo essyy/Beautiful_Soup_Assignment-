@@ -1,6 +1,6 @@
 # Python script to scrape an article given the url of the article and store the extracted text in a file
 # Url: https://medium.com/@subashgandyer/papa-what-is-a-neural-network-c5e5cc427c7
-
+import sys
 import os
 import requests
 import re
@@ -64,6 +64,7 @@ def save_file(text):
     # Code ends here
 
     print(f'File saved in directory {fname}')
+
 
 
 if __name__ == '__main__':
